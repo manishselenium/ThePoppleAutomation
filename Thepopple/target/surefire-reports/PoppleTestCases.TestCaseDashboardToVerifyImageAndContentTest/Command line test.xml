@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="wittyfeed-Vostro-3558" name="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest" tests="31" failures="0" timestamp="29 Nov 2018 13:31:22 GMT" time="34.966" errors="0">
+  <testcase name="CheckSearchOption" time="0.018" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckFacebookLink" time="0.019" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckInstaLink" time="5.011" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckTwittLink" time="0.014" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckYouTubeLink" time="0.01" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckSiteLogo" time="0.009" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckPositiveCategoriesLink" time="0.007" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckpopularCategoriesLink" time="0.007" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckPeopleCategoriesLink" time="0.009" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckVideosLink" time="0.011" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckQuizeLink" time="0.012" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckFeaturedPostImage" time="0.008" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckFeaturedPostTitle" time="0.007" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckFeaturedPostAuthor" time="0.017" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckSecondPostImage" time="0.009" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckSecondPostTitle" time="0.007" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckSecondPostAuthor" time="0.007" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckThirdPostImage" time="0.008" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckThirdPostTitle" time="0.009" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckThirdPostAuthor" time="0.009" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckLatestStoryImage" time="0.008" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckLatestStoryTitle" time="0.008" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckLatestStoryAuthor" time="1.025" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckTheVideo1" time="1.027" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="Checkvideo2" time="1.027" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckQuizeFeedImage" time="1.032" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckQuizefeedTitle" time="1.033" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="QuizeFeedAuthor" time="1.026" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckEatSleepReadReaptImage" time="1.024" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckEatSleepReadReaptTitle" time="1.027" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+  <testcase name="CheckEatSleepReadReaptAuthor" time="1.021" classname="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest"/>
+</testsuite>

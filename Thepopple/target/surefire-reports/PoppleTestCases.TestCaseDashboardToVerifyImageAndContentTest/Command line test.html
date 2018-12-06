@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 29 19:00:47 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>34 seconds (34966 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckEatSleepReadReaptAuthor()'><b>CheckEatSleepReadReaptAuthor</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckEatSleepReadReaptImage()'><b>CheckEatSleepReadReaptImage</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckEatSleepReadReaptTitle()'><b>CheckEatSleepReadReaptTitle</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckFacebookLink()'><b>CheckFacebookLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckFeaturedPostAuthor()'><b>CheckFeaturedPostAuthor</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckFeaturedPostImage()'><b>CheckFeaturedPostImage</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckFeaturedPostTitle()'><b>CheckFeaturedPostTitle</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckInstaLink()'><b>CheckInstaLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>5</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckLatestStoryAuthor()'><b>CheckLatestStoryAuthor</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckLatestStoryImage()'><b>CheckLatestStoryImage</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckLatestStoryTitle()'><b>CheckLatestStoryTitle</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckPeopleCategoriesLink()'><b>CheckPeopleCategoriesLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckPositiveCategoriesLink()'><b>CheckPositiveCategoriesLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckQuizeFeedImage()'><b>CheckQuizeFeedImage</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckQuizeLink()'><b>CheckQuizeLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckQuizefeedTitle()'><b>CheckQuizefeedTitle</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckSearchOption()'><b>CheckSearchOption</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckSecondPostAuthor()'><b>CheckSecondPostAuthor</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckSecondPostImage()'><b>CheckSecondPostImage</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckSecondPostTitle()'><b>CheckSecondPostTitle</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckSiteLogo()'><b>CheckSiteLogo</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckTheVideo1()'><b>CheckTheVideo1</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckThirdPostAuthor()'><b>CheckThirdPostAuthor</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckThirdPostImage()'><b>CheckThirdPostImage</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckThirdPostTitle()'><b>CheckThirdPostTitle</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckTwittLink()'><b>CheckTwittLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckVideosLink()'><b>CheckVideosLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckYouTubeLink()'><b>CheckYouTubeLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.CheckpopularCategoriesLink()'><b>CheckpopularCategoriesLink</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>0</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.Checkvideo2()'><b>Checkvideo2</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+<tr>
+<td title='PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest.QuizeFeedAuthor()'><b>QuizeFeedAuthor</b><br>Test class: PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest</td>
+<td></td>
+<td>1</td>
+<td>PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest@53fdffa1</td></tr>
+</table><p>
+</body>
+</html>

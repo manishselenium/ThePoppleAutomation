@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="31" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest" duration-ms="34966" started-at="2018-11-29T19:00:47Z" finished-at="2018-11-29T19:01:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="34966" started-at="2018-11-29T19:00:47Z" finished-at="2018-11-29T19:01:22Z">
+      <class name="PoppleTestCases.TestCaseDashboardToVerifyImageAndContentTest">
+        <test-method status="PASS" signature="OpenBrowser()" name="OpenBrowser" is-config="true" duration-ms="20483" started-at="2018-11-29T19:00:47Z" finished-at="2018-11-29T19:01:07Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchOption()" name="CheckSearchOption" duration-ms="18" started-at="2018-11-29T19:01:07Z" finished-at="2018-11-29T19:01:07Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckFacebookLink()" name="CheckFacebookLink" duration-ms="19" started-at="2018-11-29T19:01:07Z" finished-at="2018-11-29T19:01:07Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckInstaLink()" name="CheckInstaLink" duration-ms="5011" started-at="2018-11-29T19:01:07Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckTwittLink()" name="CheckTwittLink" duration-ms="14" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckYouTubeLink()" name="CheckYouTubeLink" duration-ms="10" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSiteLogo()" name="CheckSiteLogo" duration-ms="9" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckPositiveCategoriesLink()" name="CheckPositiveCategoriesLink" duration-ms="7" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckpopularCategoriesLink()" name="CheckpopularCategoriesLink" duration-ms="7" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckPeopleCategoriesLink()" name="CheckPeopleCategoriesLink" duration-ms="9" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckVideosLink()" name="CheckVideosLink" duration-ms="11" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizeLink()" name="CheckQuizeLink" duration-ms="12" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostImage()" name="CheckFeaturedPostImage" duration-ms="8" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostTitle()" name="CheckFeaturedPostTitle" duration-ms="7" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostAuthor()" name="CheckFeaturedPostAuthor" duration-ms="17" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostImage()" name="CheckSecondPostImage" duration-ms="9" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostTitle()" name="CheckSecondPostTitle" duration-ms="7" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostAuthor()" name="CheckSecondPostAuthor" duration-ms="7" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostImage()" name="CheckThirdPostImage" duration-ms="8" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostTitle()" name="CheckThirdPostTitle" duration-ms="9" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostAuthor()" name="CheckThirdPostAuthor" duration-ms="9" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryImage()" name="CheckLatestStoryImage" duration-ms="8" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryTitle()" name="CheckLatestStoryTitle" duration-ms="8" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:12Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryAuthor()" name="CheckLatestStoryAuthor" duration-ms="1025" started-at="2018-11-29T19:01:12Z" finished-at="2018-11-29T19:01:13Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckTheVideo1()" name="CheckTheVideo1" duration-ms="1027" started-at="2018-11-29T19:01:13Z" finished-at="2018-11-29T19:01:14Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkvideo2()" name="Checkvideo2" duration-ms="1027" started-at="2018-11-29T19:01:14Z" finished-at="2018-11-29T19:01:15Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizeFeedImage()" name="CheckQuizeFeedImage" duration-ms="1032" started-at="2018-11-29T19:01:15Z" finished-at="2018-11-29T19:01:16Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizefeedTitle()" name="CheckQuizefeedTitle" duration-ms="1033" started-at="2018-11-29T19:01:16Z" finished-at="2018-11-29T19:01:18Z">
+        </test-method>
+        <test-method status="PASS" signature="QuizeFeedAuthor()" name="QuizeFeedAuthor" duration-ms="1026" started-at="2018-11-29T19:01:18Z" finished-at="2018-11-29T19:01:19Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptImage()" name="CheckEatSleepReadReaptImage" duration-ms="1024" started-at="2018-11-29T19:01:19Z" finished-at="2018-11-29T19:01:20Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptTitle()" name="CheckEatSleepReadReaptTitle" duration-ms="1027" started-at="2018-11-29T19:01:20Z" finished-at="2018-11-29T19:01:21Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptAuthor()" name="CheckEatSleepReadReaptAuthor" duration-ms="1021" started-at="2018-11-29T19:01:21Z" finished-at="2018-11-29T19:01:22Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

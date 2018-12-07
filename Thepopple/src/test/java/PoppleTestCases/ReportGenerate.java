@@ -64,11 +64,11 @@ public class ReportGenerate {
 		  
 		    //Chrome setup windows
 		    
-		     System.setProperty("webdriver.gecko.driver", "geckodriver");
-		    webdriver  = new FirefoxDriver();
+//		     System.setProperty("webdriver.gecko.driver", "geckodriver");
+//		    webdriver  = new FirefoxDriver();
 			
-//			System.setProperty("webdriver.chrome.driver","chromedriver");
-//			webdriver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","chromedriver");
+			webdriver = new ChromeDriver();
 			webdriver.manage().window().maximize();
 			webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   }

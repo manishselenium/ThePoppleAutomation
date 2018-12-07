@@ -7,6 +7,9 @@
         <methods>
           <include name="CheckNextStoryFrame"/>
           <include name="OpenBrowser"/>
+          <include name="tearDown"/>
+          <include name="getResults"/>
+          <include name="Setup"/>
         </methods>
       </class>
     </classes>
